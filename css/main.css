@@ -5,6 +5,9 @@
   --maroon: maroon;
   --nd-blue: #20364c;
   --white: white;
+  
+  --brown: #663300;
+  --light-brown: #cc9966;
 }
 
 html {
@@ -19,6 +22,19 @@ body {
 }
 
 /* Colors */
+
+/* new colors I'm adding */
+
+.brown {
+  color: var(--brown);
+}
+
+.light-brown {
+  color: var(--light-brown);
+}
+
+/* end of new colors I'm adding */
+
 .dark-blue {
   color: #20364c !important;
 }

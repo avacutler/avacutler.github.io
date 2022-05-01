@@ -25,12 +25,12 @@ body {
 
 /* new colors I'm adding */
 
-.brown {
-  color: var(--brown);
+.blue {
+  color: var(--blue);
 }
 
-.light-brown {
-  color: var(--light-brown);
+.light-blue {
+  color: var(--light-blue);
 }
 
 /* end of new colors I'm adding */

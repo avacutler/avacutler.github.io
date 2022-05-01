@@ -25,12 +25,12 @@ body {
 
 /* new colors I'm adding */
 
-.blue {
-  color: var(--blue);
+.brown {
+  color: var(--brown);
 }
 
-.light-blue {
-  color: var(--light-blue);
+.light-brown {
+  color: var(--light-brown);
 }
 
 /* end of new colors I'm adding */
@@ -251,7 +251,7 @@ iframe {
 nav {
   padding-top: 1rem;
   padding-bottom: 2rem;
-  background: var(--blue) !important;
+  background: var(--brown) !important;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -260,7 +260,7 @@ nav {
 }
 
 .navbar-inverse li.active {
-  border-bottom: 5px solid --light-blue !important;
+  border-bottom: 2px solid --light-brown !important;
 }
 
 .navbar-inverse .navbar-nav>.active>a {
@@ -283,7 +283,7 @@ nav {
 }
 
 .navbar-header button:hover {
-  background: black !important;
+  background: transparent !important;
 }
 
 /* Utility classes for positioning content ----------------------------------- */
@@ -494,3 +494,15 @@ dd {
   background-color: #1585cf;
   opacity: .8;
 }
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

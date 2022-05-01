@@ -250,7 +250,7 @@ iframe {
 /* Format the nav  ---------------------------------------------------------- */
 nav {
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   background: var(--brown) !important;
 }
 
@@ -260,11 +260,11 @@ nav {
 }
 
 .navbar-inverse li.active {
-  border-bottom: 2px solid --light-brown !important;
+  border-bottom: 4px solid --nd-blue !important;
 }
 
 .navbar-inverse .navbar-nav>.active>a {
-  background-color: var(--nd-blue) !important;
+  background-color: var(--brown) !important;
 }
 
 .navbar-inverse .navbar-nav>li.active {

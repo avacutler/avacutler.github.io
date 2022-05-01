@@ -260,7 +260,7 @@ nav {
 }
 
 .navbar-inverse li.active {
-  border-bottom: 4px solid --nd-blue !important;
+  border-bottom: 4px solid var(--nd-blue) !important;
 }
 
 .navbar-inverse .navbar-nav>.active>a {
@@ -283,7 +283,7 @@ nav {
 }
 
 .navbar-header button:hover {
-  background: transparent !important;
+  background: var(--light-brown) !important;
 }
 
 /* Utility classes for positioning content ----------------------------------- */

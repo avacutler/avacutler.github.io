@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata for the Webpage -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ava Cutler</title>
+
+  <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
+  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Bootstrap CSS files-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  <!-- jQuery UI CSS (optional) -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!-- Google web fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Web Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <!-- Local styles -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <style>
+    .panel-body {
+      background-color: #f6f7fb;
+    }
+
+    #projects .panel:hover {
+      box-shadow: 3px 3px 10px lightgray;
+    }
+
+    .panel-title {
+      font-weight: bold !important;
+    }
+    
+    a
+    {text-decoration: none;
+    color: black;
+    }
+    
+  </style>
+
+</head>
+
+<body>
+
+  <!-- navbar include -->
+  <div id="navbar-include"></div>
+
+  <div class="spacer-div-3 hidden-xs hidden-xs"></div>
+
+  <!-- Main content    -->
+  <div id="main-container" class="container">
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Work</h1>
+        <p> A selection of projects and publications. </p> 
+
+      </div>
+
+    </div>
+
+    <div class="row push-down-2" id="projects">
+
+    <!-- If you don't want the cards to be links, simply remove the {data-url='some link'} attribute -->
+
+      
+      
+          <h4> Articles </h4>
+      
+        <a target="_blank" href="https://www.moroccoworldnews.com/2020/04/298478/moroccan-mosaics-a-creative-blend-of-art-nature-and-mathematics">
+        <div class="col-sm-6 col-md-4">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading proj-1">
+              <img class="img-responsive" src="img/Morocco-Mosaic-2.jpg" class="img-rounded" id="Panel_Image">
+      			</div>
+      			<div class="panel-body">
+              <h5>Moroccan Mosaics: A Creative Blend of Art, Nature, and Mathematics</h5>
+              <p>Zellige tiling combines art, science, and math into a beautiful creation rooted in ancient practices.</p></div>
+      		</div>
+      	</div>
+        </a>
+
+        <a target="_blank" href="https://www.moroccoworldnews.com/2020/04/299356/what-happened-when-i-discovered-i-was-stuck-in-morocco-during-the-covid-19-crisis">
+      	<div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer">
+      			<div class="panel-heading proj-2">
+              <img class="img-responsive" src="img/Morocco-Sunset.jpg" class="img-rounded" id="Panel_Image">
+      			</div>
+      			<div class="panel-body">
+              <h5>What Happened When I Discovered I Was ‘Stuck’ in Morocco During the COVID-19 Crisis</h5>
+              <p>After growing to love Morocco, I was forced to return home early as the coronavirus pandemic swept the globe with unprecedented force.</p></div>
+      		</div>
+      	</div>
+        </a>
+
+        <a target="_blank" href="https://www.moroccoworldnews.com/2020/06/306345/must-reads-six-books-by-black-authors-about-being-black-in-america">
+      	<div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer">
+      			<div class="panel-heading proj-3">
+              <img class="img-responsive" src="img/Smokies2.png" class="img-rounded" id="Panel_Image">
+      			</div>
+      			<div class="panel-body">
+              <h5>Must-Reads: Six Books by Black Authors About Being Black in America</h5>
+              <p>Six of the most riveting books to develop a deeper understanding of race in the United States; now, and throughout history.</p></div>
+      		</div>
+      	</div>
+        </a>
+      
+        <a target="_blank" href="https://www.moroccoworldnews.com/2020/11/327345/moroccan-doctors-strike-against-recurring-issues-covid-19-doesnt-help">
+        <div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer" data-url="https://google.com">
+      			<div class="panel-heading proj-4">
+              <img class="img-responsive" src="img/Fes-Leather.jpg" class="img-rounded" id="Panel_Image">
+      			</div>
+      			<div class="panel-body">
+              <h5>Moroccan Doctors Strike Against Recurring Issues, COVID-19 Doesn’t Help</h5>
+              <p>Moroccan doctors have long fought for better-quality facilities, technology, wages, and working conditions. Protests have recurred year after year with similar demands every time.</p></div>
+      		</div>
+      	</div>
+        </a>
+
+
+      
+        <h4> Academic </h4>
+      
+        <a target ="_blank" href="https://sites.google.com/macalester.edu/networksciencecapstone2021">
+      	<div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer" data-url="https://google.com">
+      			<div class="panel-heading proj-5">
+              <img class="img-responsive" src="img/ObamaCritZoom.png" class="img-rounded" id="Panel_Image">
+      			</div>
+      			<div class="panel-body">
+              <h5>Racist Rhetoric and Network Science</h5>
+              <p>Senior project at Macalester which won the 2021 Capstone Prize in Mathematics</p></div>
+      		</div>
+      	</div>
+        </a>
+      
+      <!--
+
+
+  
+
+        <h4> Modeling </h4>
+      
+        <a target ="_blank" href="https://alexmader.net/editorial/reflections-of-reality/">
+      	<div class="col-sm-6 col-md-4" style="margin-left: 20px">
+      		<div class="panel panel-default pointer" data-url="https://google.com">
+      			<div class="panel-heading proj-6">
+              <img class="img-responsive" src="img/IMG_4087.JPG" class="img-rounded" id="Panel_Image">
+      			</div>
+      			<div class="panel-body">
+              <h5>Reflections of Reality</h5>
+              <p><b>Photographer:</b> Alex Mader
+              <b>Casting: </b>Casting Buro Wien</p></div>
+      		</div>
+      	</div>
+        </a>
+      
+      
+      <div class="row">
+      <div class="col-sm-12">
+        <h4> Other Accomplishments </h4>
+      
+        <p style="margin-left: 20px"> Proficient in French.</p>
+      
+        <p style="margin-left: 20px"> Performed at Carnegie Hall four times with musicians and composers such as Maestro Zubin Mehta, The Israel Philharmonic 
+          Orchestra Idina Menzel and Sting.</p>
+      
+        <p style="margin-left: 20px"> Sang for the United Nations with Steven Tyler.</p>
+      
+        <p style="margin-left: 20px"> College sotball player for two years </p>
+
+        </div>
+
+      </div>
+      
+-->
+
+      
+      <!--
+      	<div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer" data-url="https://google.com">
+      			<div class="panel-heading proj-6">
+      			</div>
+      			<div class="panel-body">
+              <h5>Project 6</h5>
+              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
+      		</div>
+      	</div>
+        <div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer" data-url="https://google.com">
+      			<div class="panel-heading proj-7">
+      			</div>
+      			<div class="panel-body">
+              <h5>Project 7</h5>
+              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
+      		</div>
+      	</div>
+      	<div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer" data-url="https://google.com">
+      			<div class="panel-heading proj-8">
+      			</div>
+      			<div class="panel-body">
+              <h5>Project 8</h5>
+              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
+      		</div>
+      	</div>
+      	<div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer" data-url="https://google.com">
+      			<div class="panel-heading proj-9">
+      			</div>
+      			<div class="panel-body">
+              <h5>Project 9</h5>
+              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
+      		</div>
+      	</div>
+        <div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer" data-url="https://google.com">
+      			<div class="panel-heading proj-10">
+      			</div>
+      			<div class="panel-body">
+              <h5>Project 10</h5>
+              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
+      		</div>
+      	</div>
+      	<div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer" data-url="https://google.com">
+      			<div class="panel-heading proj-11">
+      			</div>
+      			<div class="panel-body">
+              <h5>Project 11</h5>
+              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
+      		</div>
+      	</div>
+      	<div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer" data-url="https://google.com">
+      			<div class="panel-heading proj-12">
+      			</div>
+      			<div class="panel-body">
+              <h5>Project 12</h5>
+              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
+      		</div>
+      	</div>
+-->
+      </div>
+      <!-- row -->
+
+  </div>
+
+  <!-- Back-to-top button -->
+  <a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
+
+  <!-- footer include -->
+  <div w3-include-html="footer.html"></div>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Bootstrap JS Library -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+  <!-- html file include script | used for navbar and footer -->
+  <script src="js/w3data.js"></script>
+  <script>
+    w3IncludeHTML()
+  </script>
+
+  <!-- Local scripts -->
+  <script src="js/main.js"></script>
+
+  <script>
+
+  $(document).ready(function() {
+
+    $("#navbar-include").load("navbar.html", function() {
+
+      $("#home").removeClass("active");
+      $("#projects").addClass("active");
+
+    });
+
+  });
+
+
+  </script>
+
+</body>
+
+</html>

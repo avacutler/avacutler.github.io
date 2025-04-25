@@ -507,7 +507,7 @@ dd {
 
 .navbar-inverse .navbar-nav > li > a:hover {
   background-color: var(--light-brown) !important;
-  font-weight: bold !important;
+  text-decoration: underline;
   color: white !important; /* ensures text stays visible */
 }
 

@@ -7,8 +7,10 @@
   --white: white;
   
   /* --brown: #663300; */
-  --brown: #660066; /* this is purple now but I dont want to change the var. */
-  /*--brown: #06402B; /* this is green now but I dont want to change the var. */
+  
+    --brown: #660066; /* this is dark green now but I dont want to change the var. */
+  /*--brown: #660066; /* this is purple now but I dont want to change the var. 
+  --brown: #06402B; /* this is green now but I dont want to change the var. */
   --light-brown: #cc9966;
 }
 

@@ -498,6 +498,21 @@ dd {
   background-color: #1585cf;
   opacity: .8;
 }
+
+
+/*adding navbar hover code */
+.navbar-inverse .navbar-nav > li > a {
+  transition: background-color 0.3s ease, font-weight 0.3s ease;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: var(--light-brown) !important;
+  font-weight: bold !important;
+  color: white !important; /* ensures text stays visible */
+}
+
+
+
 © 2022 GitHub, Inc.
 Terms
 Privacy
@@ -510,3 +525,4 @@ API
 Training
 Blog
 About
+

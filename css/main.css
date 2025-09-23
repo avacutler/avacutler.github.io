@@ -56,7 +56,7 @@ body {
 }
 
 .pointer {
-  cursor: pointer;
+  cursor: url(icons8-cursor.svg) 15 15, move;
 }
 
 #badge-more {
